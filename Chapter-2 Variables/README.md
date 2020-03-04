@@ -3,7 +3,7 @@
 * [Variables in Java](#Variables-in-Java)
 * [How to declare variables?](#How-to-declare-variables?)
 * [Types of Variables](#Types-of-Variables)
-* [Java Syntax](#Java-Syntax)
+
 
 
 ## Variables in Java
