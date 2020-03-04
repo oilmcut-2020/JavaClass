@@ -1,5 +1,5 @@
 
-// Instance Variable
+// Example of Instance Variable
 
 import java.io.*; 
 class Marks { 
