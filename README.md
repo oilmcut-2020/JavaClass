@@ -7,13 +7,22 @@
 ### Table of Content :
 
 Chapter-1 Basics of Java
+
 Chapter-2 Vairables
+
 Chapter-3 JVM & Architecture
+
 Chapter-4 Data Types & Operators
+
 Chapter-5 Java Control Statements
+
 Chapter-6 Arrays
+
 Chapter-7 OOP's Concept
+
 Chapter-8
+
 Chapter-9
+
 Chapter-10
 
