@@ -1,6 +1,6 @@
 *In this class we are going to study JAVA. As Java is the most popular programming language.*
 
-**Author- Shvani, Raghav**
+**Author- Shivani, Raghav**
 
 **Guide - Prof. Chuang-Jan-Chang**
 
