@@ -6,21 +6,19 @@
 
 ### Table of Content :
 
-Chapter-1 Basics of Java
+### Chapter-1 Basics of Java
+
+1.1 What is Java
+1.2 Why Use Java
+1.3 Hello World using Java Programming
+1.4 Java Syntax
 
 
-    What is Java
-    Why Use Java
-    Hello World using Java Programming
-    Java Syntax
+### Chapter-2 Vairables
 
-
-Chapter-2 Vairables
-
-
-    Variables in Java
-    How to declare variables?
-    Types of Variables
+2.1 Variables in Java
+2.2 How to declare variables?
+2.3 Types of Variables
 
 
 Chapter-3 JVM & Architecture
