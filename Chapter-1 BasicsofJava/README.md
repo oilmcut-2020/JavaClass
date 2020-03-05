@@ -2,8 +2,11 @@
 
 * [What is Java](#What-is-Java)
 * [Why Use Java](#Why-Use-Java)
+* [How to compile and run Java program in Linux / Ubuntu Terminal] (#How-to-compile-and-run-Java-program-in-Linux-/-Ubuntu-Terminal)
 * [Hello World using Java Programming](#Hello-World-using-Java-Programming)
 * [Java Syntax](#Java-Syntax)
+* [Java Identifiers](#Java-Identifiers)
+* [Java Modifiers] (#Java-Modifiers)
 
 
 ## What is Java?
@@ -24,11 +27,30 @@ Java is a high-level programming language originally developed by Sun Microsyste
 
 *Robust* − Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking.
 
+## How to compile and run Java program in Linux / Ubuntu Terminal 
+Here we will write, compile and execute a simple HelloWorld Program.
+So, the first step is to install Java on your computer.
+
+1. Install Java software development kit.
+
+       sudo apt-get install openjdk-8-jdk
+       
+2. Write your program , you can write your program using any text editor. In the terminal you can use VIM or nano editor.
+
+3. Compile your program 
+    
+       javac MyFirstJavaProgram.java
+       
+4. Finally, run your program.
+
+       java MyFirstJavaProgram
+     
 
 ## Hello World using Java Programming.
 
 Let's create our first Java file, called MyFirstJavaProgram.java, which can be done in any text editor (like Notepad).
-In Java, every application begins with a class name, and that class must match the filename.The file should contain a "Hello World" message, which is written with the following code:
+In Java, every application begins with a class name, and that class must match the filename.
+The file should contain a "Hello World" message, which is written with the following code:
 
 INPUT :
 
@@ -94,7 +116,32 @@ This example uses a multi-line comment (a comment block) to explain the code:
     /* The code below will print the words Hello World
     to the screen, and it is amazing */
     System.out.println("Hello World");
-    
+ 
+ ## Java Identifiers
+ 
+ All Java components require names. Names used for classes, variables, and methods are called identifiers.
+ In Java, there are several points to remember about identifiers. They are as follows −
+1) All identifiers should begin with a letter (A to Z or a to z), currency character ($) or an underscore (_).
+
+2) After the first character, identifiers can have any combination of characters.
+
+3) A key word cannot be used as an identifier.
+
+4) Most importantly, identifiers are case sensitive.
+
+5) Examples of legal identifiers: age, $salary, _value, __1_value.
+
+6) Examples of illegal identifiers: 123abc, -salary.
+ 
+ ## Java Modifiers
+ 
+Like other languages, it is possible to modify classes, methods, etc., by using modifiers. There are two categories of modifiers −
+
+1) Access Modifiers − default, public , protected, private
+
+2) Non-access Modifiers − final, abstract, strictfp
+
+ 
     
 
  
