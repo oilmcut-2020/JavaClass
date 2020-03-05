@@ -34,17 +34,11 @@
 
 ### Chapter-3 JVM & Architecture
 
-Chapter-4 Data Types & Operators
+### Chapter-4 Data Types & Operators
 
-Chapter-5 Java Control Statements
+### Chapter-5 Java Control Statements
 
-Chapter-6 Arrays
+### Chapter-6 Arrays
 
-Chapter-7 OOP's Concept
-
-Chapter-8
-
-Chapter-9
-
-Chapter-10
+### Chapter-7 OOP's Concept
 
