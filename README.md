@@ -12,9 +12,15 @@
 
 1.2) Why Use Java
 
-1.3) Hello World using Java Programming
+1.3) How to compile and run Java Program
 
-1.4) Java Syntax
+1.4) Hello World using Java Programming
+
+1.5) Java Syntax
+
+1.6) Java Identifiers
+
+1.7) Java Modifiers
 
 
 ### Chapter-2 Vairables
