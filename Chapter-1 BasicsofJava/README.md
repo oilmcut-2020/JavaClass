@@ -2,11 +2,12 @@
 
 * [What is Java](#What-is-Java)
 * [Why Use Java](#Why-Use-Java)
-* [How to compile and run Java program in Linux / Ubuntu Terminal] (#How-to-compile-and-run-Java-program-in-Linux-/-Ubuntu-Terminal)
+* [How to compile and run Java Program](#How-to-compile-and-run-Java-Program)
 * [Hello World using Java Programming](#Hello-World-using-Java-Programming)
 * [Java Syntax](#Java-Syntax)
 * [Java Identifiers](#Java-Identifiers)
-* [Java Modifiers] (#Java-Modifiers)
+* [Java Modifiers](#Java-Modifiers)
+
 
 
 ## What is Java?
@@ -139,9 +140,10 @@ Like other languages, it is possible to modify classes, methods, etc., by using 
 
 1) Access Modifiers − default, public , protected, private
 
-2) Non-access Modifiers − final, abstract, strictfp
+2) Non-access Modifiers − final, abstract, strictfp 
 
  
+ *This is all for basics of JAVA, I hope you understand all above material .See you all in next chapter :)*
     
 
  
