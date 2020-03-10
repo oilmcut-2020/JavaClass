@@ -19,7 +19,9 @@ A variable is a name given to a memory location. It is the basic unit of storage
 
 We can declare variables in java as follows:
 
-img 
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-2%20Variables/declare-variable.png">
+</p>
 
 type: Type of data that can be stored in this variable.
 name: Name given to the variable.
@@ -27,7 +29,10 @@ In this way, a name can only be given to a memory location. It can be assigned v
 - Variable Initialization
 - Assigning value by taking input
 
-img 
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-2%20Variables/init-variable.png">
+</p>
+ 
 
 datatype: Type of data that can be stored in this variable.
 variable_name: Name given to the variable.
