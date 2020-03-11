@@ -1,5 +1,8 @@
 # Content
 
+* [Java Data Types](#Java-Data-Types)
+* [Primitive Data Types](#Primitive-Data-Types)
+* [Non-Primitive Data Types](#Non-Primitive-Data-Types)
 
 ## Java Data Types
 Data types specify the different sizes and values that can be stored in the variable.
