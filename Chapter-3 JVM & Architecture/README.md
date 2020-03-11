@@ -18,39 +18,46 @@ JVM is responsible for allocating memory space. When we compile a .java file, .c
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20JVM%20%26%20Architecture/java-arch.png">
 </p>
 
-**Function :**
-1) ClassLoader
+### Function :
+**1) ClassLoader**
+The class loader is a subsystem used for loading class files. It performs three major functions viz. Loading, Linking, and Initialization.It is mainly responsible for three activities.
 
-The class loader is a subsystem used for loading class files. It performs three major functions viz. Loading, Linking, and Initialization.
+- Loading
+- Linking
+- Initialization
 
-2) Method Area
+**2) Method Area**
+In method area, all class level information like class name, immediate parent class name, methods and variables information etc. are stored, including static variables. There is only one method area per JVM, and it is a shared resource.
 
-JVM Method Area stores class structures like metadata, the constant runtime pool, and the code for methods.
-
-3) Heap
-
+**3) Heap**
 All the Objects, their related instance variables, and arrays are stored in the heap. This memory is common and shared across multiple threads.
 
-4) JVM language Stacks
+**4) JVM language Stacks**
 
 Java language Stacks store local variables, and it’s partial results. Each thread has its own JVM stack, created simultaneously as the thread is created. A new frame is created whenever a method is invoked, and it is deleted when method invocation process is complete.
 
-5)  PC Registers
+**5)  Program Counter (PC) Registers**
 
 PC register store the address of the Java virtual machine instruction which is currently executing. In Java, each thread has its separate PC register.
 
-6) Native Method Stacks
+**6) Native Method Stacks**
 
 Native method stacks hold the instruction of native code depends on the native library. It is written in another language instead of Java.
 
-7) Execution Engine
+**7) Execution Engine**
 
-It t is a type of software used to test hardware, software, or complete systems. The test execution engine never carries any information about the tested product.
+Execution engine execute the .class (bytecode). It reads the byte-code line by line, use data and information present in various memory area and execute instructions. It can be classified in three parts :-
 
-8) Native Method interface
+- *Interpreter* : It interprets the bytecode line by line and then executes. The disadvantage here is that when one method is called multiple times, every time interpretation is required.
+
+- *Just-In-Time Compiler(JIT)* : It is used to increase efficiency of interpreter.It compiles the entire bytecode and changes it to native code so whenever interpreter see repeated method calls,JIT provide direct native code for that part so re-interpretation is not required,thus efficiency is improved.
+
+- *Garbage Collector* : It destroy un-referenced objects.For more on Garbage Collector,refer Garbage Collector.
+
+**8) Native Method interface**
 
 The Native Method Interface is a programming framework. It allows Java code which is running in a JVM to call by libraries and native applications.
 
-9) Native Method Libraries
+**9) Native Method Libraries**
 
 Native Libraries is a collection of the Native Libraries(C, C++) which are needed by the Execution Engine. 
