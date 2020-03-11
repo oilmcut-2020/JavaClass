@@ -34,7 +34,20 @@
 
 ### Chapter-3 JVM & Architecture
 
-### Chapter-4 Data Types & Operators
+3.1) What is JVM?
+    
+3.2) How JVM Works?
+
+
+### Chapter-4 Data Types
+
+4.1) Java Data Types
+
+4.2) Primitive Data Types
+
+4.3) Non-Primitive Data Types
+
+### Chapter-5 Java Operators
 
 ### Chapter-5 Java Control Statements
 
