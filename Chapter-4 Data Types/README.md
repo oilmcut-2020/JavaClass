@@ -4,6 +4,7 @@
 ## Java Data Types
 Data types specify the different sizes and values that can be stored in the variable.
 
+```
         int myNum = 5;               // Integer (whole number)
 
         float myFloatNum = 5.99f;    // Floating point number
@@ -13,6 +14,8 @@ Data types specify the different sizes and values that can be stored in the vari
         boolean myBool = true;       // Boolean
 
         String myText = "Hello";     // String
+ ```       
+        
         
 There are two types of data types in Java:
 
@@ -20,9 +23,6 @@ There are two types of data types in Java:
 
 2) **Non-primitive data types:** The non-primitive data types include Classes, Interfaces, and Arrays.
        
-
-
-
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-4%20Data%20Types/data-types.png">
 </p>
