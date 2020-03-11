@@ -1,6 +1,6 @@
 # Content
 
-* [What is JVM](#What-is-JVM-?)
+* [What is JVM?](#What-is-JVM-?)
 * [How JVM Works?](#How-JVM-Works-?)
 
 
