@@ -2,9 +2,9 @@
 * [Java Operators](#Java-Operators)
 * [1) Arithmetic Operators]((#1)-Arithmetic-Operators)
 * [2) Relational Operators]((#2)-Relational-Operators)
-* [3) Bitwise Operators](#3)-Bitwise-Operators)
-* [4) Logical Operators](#4)-Logical-Operators)
-* [5) Assignment Operators](#5)-Assignment-Operators)
+* [3) Bitwise Operators]((#3)-Bitwise-Operators)
+* [4) Logical Operators]((#4)-Logical-Operators)
+* [5) Assignment Operators]((#5)-Assignment-Operators)
 
 
 
