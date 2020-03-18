@@ -1,10 +1,10 @@
 # Content
 * [Java Operators](#Java-Operators)
-* [Arithmetic Operators](#Arithmetic-Operators)
-* [Relational Operators](#Relational-Operators)
-* [Bitwise Operators](#Bitwise-Operators)
-* [Logical Operators](#Logical-Operators)
-* [Assignment Operators](#Assignment-Operators)
+* [1) Arithmetic Operators](#1)-Arithmetic-Operators)
+* [2) Relational Operators](#2)-Relational-Operators)
+* [3) Bitwise Operators](#3)-Bitwise-Operators)
+* [4) Logical Operators](#4)-Logical-Operators)
+* [5) Assignment Operators](#5)-Assignment-Operators)
 
 
 
@@ -17,7 +17,7 @@ Operators are special symbols (characters) that carry out operations on operands
 4) Logical Operators
 5) Assignment Operators
     
-## Arithmetic Operators
+## 1) Arithmetic Operators
 
 Arithmetic operators are used to perform common mathematical operations.Arithmetic operators are used in mathematical expressions in the same way that they are used in algebra. 
 
@@ -71,7 +71,7 @@ a / b = 2
 a % b = 0
 ```
 
-## Relational Operators
+## 2) Relational Operators
 These operators are used to check for relations like equality, greater than, less than. They return boolean result after the comparison and are extensively used in looping statements as well as conditional if else statements. General format is, 
                    
            variable **relation_operator** value 
@@ -149,7 +149,7 @@ x == y : false
 condition==true :true
 ```
 
-## Bitwise Operators
+## 3) Bitwise Operators
 These operators are used to perform manipulation of individual bits of a number. They can be used with any of the integer types. They are used when performing update and query operations of Binary indexed tree.
 
 - **&, Bitwise AND operator:** returns bit by bit AND of input values.
@@ -210,7 +210,7 @@ a^b = 2
 a= 5
 ```
 
-## Logical Operators
+## 4) Logical Operators
 These operators are used to perform “logical AND” and “logical OR” operation, i.e. the function similar to AND gate and OR gate in digital electronics. One thing to keep in mind is the second condition is not evaluated if the first one is false, i.e. it has a short-circuiting effect. Used extensively to test for several conditions for making a decision.
 Conditional operators are-
 
@@ -250,7 +250,7 @@ true
 false
 ```
 
-## Assignment Operators
+## 5) Assignment Operators
 Assignment operator is used to assign a value to any variable. It has a right to left associativity, i.e value given on right hand side of operator is assigned to the variable on the left and therefore right hand side value must be declared before using it or should be a constant.
 General format of assignment operator is,
 
