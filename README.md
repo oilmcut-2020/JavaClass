@@ -49,6 +49,20 @@
 
 ### Chapter-5 Java Operators
 
+
+5.1) Java Operators
+
+5.2) Arithmetic Operators
+
+5.3) Relational Operators
+
+5.4) Bitwise Operators
+
+5.5) Logical Operators
+
+5.6) Assignment Operators
+
+
 ### Chapter-5 Java Control Statements
 
 ### Chapter-6 Arrays
