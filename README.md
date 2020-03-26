@@ -20,9 +20,10 @@ Java program to check whether a number is even or odd if it's divisible by two, 
 Refer :  https://github.com/oilmcut-2020/JavaClass/blob/Week03---03-26-2020/Week%2003/CheckEvenOdd.java
 
 
-Assignment 02: 
+# Assignment 02: 
 
 1) Students have to refer the above two program and write a program by yourself to Substract two numbers ,Multiplication of two numbers, & Division of two numbers Program.
+
 **Please refer Program 1 to do this assignment**
 
 2) Write a program to display prime numbers from 1 to 100 .
