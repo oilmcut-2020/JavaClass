@@ -27,6 +27,7 @@ Refer :  https://github.com/oilmcut-2020/JavaClass/blob/Week03---03-26-2020/Week
 **Please refer Program 1 to do this assignment**
 
 2) Write a program to display prime numbers from 1 to 100 .
+
 **Hint :** The number which is only divisible by itself and 1 is known as prime number. For example 2, 3, 5, 7…are prime numbers. 
 
  
