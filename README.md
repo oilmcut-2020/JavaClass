@@ -30,4 +30,4 @@ Refer :  https://github.com/oilmcut-2020/JavaClass/blob/Week03---03-26-2020/Week
 
 **Hint :** The number which is only divisible by itself and 1 is known as prime number. For example 2, 3, 5, 7…are prime numbers. 
 
- 
+ ## IMPORTANT NOTE : PLEASE REFER BRANCH "STUDENT" FOR ANY DOUBT AND UPLOAD YOUR FILE IN WEEK 03 FOLDER!!!!
