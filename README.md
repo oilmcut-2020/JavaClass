@@ -36,7 +36,9 @@ The below screenshot will help you upload your assignment refer below picture :
 
 ![screenshot](https://github.com/oilmcut-2020/JavaClass/blob/student/images/s10.png)
 
+![screenshot](https://github.com/oilmcut-2020/JavaClass/blob/student/images/s11.png)
 
+![screenshot](https://github.com/oilmcut-2020/JavaClass/blob/student/images/s12.png)
 
 
 
