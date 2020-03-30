@@ -1,6 +1,8 @@
 
 # HOW TO ACCEPT ASSIGNMENT ?
 
+**Author - Shivani, Raghav**
+
 This will help you understand how to accept assignment, follow this for every assignment.
 
 ![screenshot](https://github.com/oilmcut-2020/JavaClass/blob/student/images/s1.png)
