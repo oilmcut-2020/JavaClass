@@ -1,6 +1,7 @@
 
-**Chapter : 02 **
+**Chapter : 02 Introduction to Java Applications ; Input/Output & Operators **
 
+Java is a high-level programming language originally developed by Sun Microsystems and released in 1995.Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. 
 # Your First Program in Java: Printing a Line of Text
 
 A Java application is a computer program that executes when you use the java command to launch the Java Virtual Machine (JVM).First we consider a simple application that displays a line of text.
@@ -12,10 +13,8 @@ INPUT:
 // Text-printing program.
 
 public class Welcome1
-
 {
 // main method begins execution of Java application
-
 public static void main(String[] args)
 {
 System.out.println("Welcome to Java Programming!");
