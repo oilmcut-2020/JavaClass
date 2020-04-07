@@ -1,5 +1,5 @@
 
-**Chapter : 02 Introduction to Java Applications ; Input/Output & Operators **
+**Chapter : 02 Introduction to Java Applications ; Input/Output & Operators**
 
 Java is a high-level programming language originally developed by Sun Microsystems and released in 1995.Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. 
 # Your First Program in Java: Printing a Line of Text
