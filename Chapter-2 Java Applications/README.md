@@ -1,7 +1,7 @@
 
-Chapter : 02 
+**Chapter : 02 **
 
-## Your First Program in Java: Printing a Line of Text
+# Your First Program in Java: Printing a Line of Text
 
 A Java application is a computer program that executes when you use the java command to launch the Java Virtual Machine (JVM).First we consider a simple application that displays a line of text.
 
@@ -10,9 +10,12 @@ INPUT:
 
 ```
 // Text-printing program.
+
 public class Welcome1
+
 {
 // main method begins execution of Java application
+
 public static void main(String[] args)
 {
 System.out.println("Welcome to Java Programming!");
@@ -37,7 +40,7 @@ This example uses a single-line comment before a line of code:
     // This is a comment
     System.out.println("Hello World");
     
- #### Java Multi-line Comments
+ ### Java Multi-line Comments
 Java also has traditional comments. Multi-line comments start with /* and ends with */.
 These begin and end with delimiters, /* and */. The compiler ignores all text between the
 delimiters. Java incorporated traditional comments and end-of-line comments from the C
@@ -84,6 +87,7 @@ INPUT:
 
 ```
 // Printing multiple lines of text with a single statement.
+
 public class Welcome3
 {
 // main method begins execution of Java application
@@ -106,13 +110,18 @@ In line 8 :
         
 displays four lines of text in the command window. Normally, the characters in a string are displayed exactly as they appear in the double quotes.  The backslash ( \ ) is an escape character, which has special meaning to System.out ’s print and println methods. When a backslash appears in a string, Java combines it with the next character to form an escape sequence— \n represents the newline character.
 
-## Displaying Text with printf
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-2%20Java%20Applications/comments.png">
+</p>
+
+# Displaying Text with printf
 
 The System.out.printf method ( f means “formatted”) displays formatted data. It uses this method to output on two lines the strings "Welcome to" and "Java Programming!
 
 INPUT :
 ```
 // Displaying multiple lines with method System.out.printf.
+
 public class Welcome4
 {
 // main method begins execution of Java application
@@ -137,13 +146,14 @@ System.out.printf("%s%n%s%n",
 call method System.out.printf to display the program’s output. The method call specifies three arguments. When a method requires multiple arguments, they’re placed in a **comma-separated list**. Calling a method is also referred to as invoking a method.
 Format specifiers begin with a percent sign ( % ) followed by a character that represents the data type. For example, the format specifier %s is a placeholder for a string.
 
-## Operators 
+# Operators 
 
 Programs remember numbers and other data in the computer’s memory and access that data through program elements called variables.
 INPUT :
 
 ```
 // Addition program that inputs two numbers then displays their sum.
+
 import java.util.Scanner; // program uses class Scanner
 public class Addition
 {
@@ -152,13 +162,16 @@ public static void main(String[] args)
 {
 // create a Scanner to obtain input from the command window
 Scanner input = new Scanner(System.in);
+
 int number1; // first number to add
 int number2; // second number to add
 int sum; // sum of number1 and number2
+
 System.out.print("Enter first integer: "); // prompt
 number1 = input.nextInt(); // read first number from user
 System.out.print("Enter second integer: "); // prompt
 number2 = input.nextInt(); // read second number from user
+
 sum = number1 + number2; // add numbers, then store total in sum
 System.out.printf("Sum is %d%n", sum); // display sum
 } // end method main
@@ -172,7 +185,7 @@ Enter second integer: 72
 Sum is 117
 ```
 
-### import Declarations
+# Import Declarations
 These classes are grouped into packages—named groups of related classes—and are collectively referred to as the Java class library, or the Java Application Programming Interface (Java API).
 
     import java.util.Scanner; // program uses class Scanner
@@ -198,12 +211,12 @@ The variable declaration statements in lines:
 
 The types int , float , double and char are called primitive types. Primitive-type names are keywords and must appear in all lowercase letters.
 
-## Memory Concepts
+# Memory Concepts
 
 Variable names such as number1 , number2 and sum actually correspond to locations in the computer’s memory. Every variable has a **name, a type, a size (in bytes) and a value.**
 
 <p align="center">
-  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/linux_terminal.png">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-2%20Java%20Applications/memory.png">
 </p>
 
     number1 = input.nextInt(); // read first number from user
@@ -213,12 +226,39 @@ Variable names such as number1 , number2 and sum actually correspond to location
     
 The values of number1 and number2 appear exactly as they did before they were used in the calculation of sum . These values were used, but not destroyed, as the computer performed the calculation. When a value is read from a memory location, the process is **non destructive.**
 
-## Arithmetic
+# Arithmetic
+
+- The arithmetic operators (p. 51) are + (addition), - (subtraction), * (multiplication), / (division)
+and % (remainder).
+
+- Integer division  yields an integer quotient.
+
+- The remainder operator,% yields the remainder after division.
+
+- Arithmetic expressions must be written in straight-line form.
+
+- If an expression contains nested parentheses, the innermost set is evaluated first.
+
+- Java applies the operators in arithmetic expressions in a precise sequence determined by the rules
+of operator precedence.
+
+- When we say that operators are applied from left to right, we’re referring to their associativity.Some operators associate from right to left.
+
+- Redundant parentheses can make an expression clearer.
 
 <p align="center">
-  <img src="https://github.com/oilmcut-2020/Basic-Linux-Commands/blob/master/linux_terminal.png">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-2%20Java%20Applications/arithmetic.png">
 </p>
 
+# Decision Making: Equality and Relational Operators
+
+- The if statement (p. 54) makes a decision based on a condition’s value (true or false).
+
+- Conditions in if statements can be formed by using the equality ( == and != ) and relational ( > ,< , >= and <= ) operators 
+
+- An if statement begins with keyword if followed by a condition in parentheses and expects one tatement in its body.
+
+- The empty statement (p. 57) is a statement that does not perform a task.
 
  
 
