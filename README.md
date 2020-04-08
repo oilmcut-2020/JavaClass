@@ -76,3 +76,31 @@ Please refer below screenshot :
 
 # HOW TO INSTALL ECLIPSE IN YOUR COMPUTER ?
 
+1) Type :
+
+        echo $DISPLAY
+Please refer below screenshot :
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/e1.png">
+</p>
+
+2) Type :
+
+        xhost + 
+Please refer below screenshot :
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/e2.png">
+</p>
+
+3) Type :
+
+        docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix shivanibaldwa/eclipse:1.0
+Please refer below screenshot :        
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/e3.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/e4.png">
+</p>
+
