@@ -1,5 +1,26 @@
 # HOW TO INSTALL DOCKER ?
 
+## Manage Docker as non-root user
+
+### To create the docker group and add your user:
+1) Create the docker group.
+   
+        sudo groupadd docker
+   
+2) Add your user to the docker group.
+
+        sudo usermod -aG docker $USER
+
+3) TYPE :
+
+        newgrp docker
+        
+4) Verify that you can run docker commands without sudo
+
+        docker run hello-world
+
+# Follow below Steps to install Docker: 
+
 1)Open file install_docker.sh 
 
 **OR**
