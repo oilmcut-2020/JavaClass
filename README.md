@@ -1,4 +1,8 @@
+# HOW TO INSTALL DOCKER ?
+
 1)Open file install_docker.sh 
+
+**OR**
 
 2) Copy this :
 ```
@@ -30,29 +34,45 @@ sudo docker run hello-world
 echo "docker installed !!!"
 
 ```
-3) open terminal 
-4) nano docker.sh
+3) Open terminal 
+4) Type : 
+
+        nano docker.sh
+Please refer below screenshot :             
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/d1.png">
 </p>
 
-5) copy the Code from install_docker.sh and paste in  nano docker.sh
+5) Copy the Code from install_docker.sh and paste in  nano docker.sh
+Please refer below screenshot :  
+
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/d2.png">
 </p>
-6) ctrl+s  then ctrl+x
+
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/d3.png">
 </p>
+
+6) Press **Ctrl+S** & **Ctrl+X**
+Please refer below screenshot : 
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/d4.png">
 </p>
 
-7) sh docker.sh
+7) Type :
+
+        sh docker.sh
+Please refer below screenshot : 
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/d5.png">
 </p>
+
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/d6.png">
 </p>
+
+---------------------------------------------------------------------------------------------------------------------------
+
+# HOW TO INSTALL ECLIPSE IN YOUR COMPUTER ?
 
