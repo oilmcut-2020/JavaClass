@@ -113,9 +113,10 @@ Please refer below screenshot :
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/e2.png">
 </p>
 
-3) Type :
+3) Type : for eclipse photon version 
 
-        docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix shivanibaldwa/eclipse:1.0
+        docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix shivanibaldwa/eclipse:3.0
+   
 Please refer below screenshot :        
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/e3.png">
