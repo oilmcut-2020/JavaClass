@@ -9,8 +9,7 @@
 - What is Java ?
 - Why use Java ?
 - How to compile and run Java program in Linux / Ubuntu Terminal
-- Hello World using Java Programming.
-- Java Syntax
+
 
 ### Chapter-2 Java Applications
 
