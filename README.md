@@ -118,9 +118,6 @@ Please refer below screenshot :
         docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix shivanibaldwa/eclipse:3.0
    
 Please refer below screenshot :        
-<p align="center">
-  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/e3.png">
-</p>
 
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/e4.png">
