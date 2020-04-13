@@ -20,3 +20,18 @@
 - Memory Concepts
 - Arithmetic
 - Decision Making: Equality and Relational Operators
+
+
+### Chapter-4 Control Statements
+
+- Introduction
+- Algorithm
+- Pseudocode
+- Control Statements
+- if Single-Selection Statement
+- if ... else Double-Selection Statement
+- Compound Assignment Operators
+- Increment and Decrement Operators
+- Operator Precedence and Associativity
+- Primitive Types
+- 
