@@ -2,6 +2,10 @@
 
 **Author- Shivani, Raghav** || **Guide - Prof. Chuang-Jan-Chang**
 
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-1%20Introduction%20to%20Computers/java.jpg">
+</p>
+
 ## Table of Content :
 
 ### Chapter-1 Introduction to Computers
