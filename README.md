@@ -38,3 +38,14 @@
 - Increment and Decrement Operators
 - Operator Precedence and Associativity
 - Primitive Types
+
+
+### Chapter-5 Logical Operators
+
+- Introduction
+- Essentials of Counter-Controlled Repetition
+- for Repetition Statement
+- do ... while Repetition Statement
+- switch Multiple-Selection Statement
+- break and continue Statements
+- Logical Operators
