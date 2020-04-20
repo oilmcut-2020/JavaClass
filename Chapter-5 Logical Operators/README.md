@@ -1,6 +1,6 @@
 # 5.1) Introduction
-This chapter continues our presentation of structured programming theory and principles
-by introducing all but one of Java’s remaining control statements.
+This chapter continues our presentation of structured programming theory and principles by introducing all but one of Java’s remaining control statements.Logical Operators are used to combine two or more conditions/constraints or to complement the evaluation of the original condition in consideration. The result of the operation of a logical operator is a boolean value either true or false.
+  
 
 # 5.2) Essentials of Counter-Controlled Repetition
 Elements required to perform counter-controlled repetition, which requires :
