@@ -1,7 +1,7 @@
 
 # HOW TO ACCEPT ASSIGNMENT ?
 
-**Author - Shivani, Raghav**
+**Author - Shivani (M07158025)**
 
 This will help you understand how to accept assignment, follow this for every assignment.
 
