@@ -1,6 +1,6 @@
 *In this class we are going to study JAVA. As Java is the most popular programming language.*
 
-**Author- Shivani, Raghav** || **Guide - Prof. Chuang-Jan-Chang**
+**Author- Shivani** || **Guide - Prof. Chuang-Jan-Chang**
 
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-1%20Introduction%20to%20Computers/java.jpg">
