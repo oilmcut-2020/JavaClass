@@ -1,5 +1,5 @@
 # HOW TO INSTALL DOCKER ?
-
+**Managed by- Shivani (M07158025)**
 ## Manage Docker as non-root user
 
 ### To create the docker group and add your user:
