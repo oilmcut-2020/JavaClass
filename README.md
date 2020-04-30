@@ -25,6 +25,17 @@
 - Arithmetic
 - Decision Making: Equality and Relational Operators
 
+### Chapter-3 Introduction to Classes,Objects, Methods and Strings
+
+- Instance Variables, set Methods and get Methods
+- Account Class with an Instance Variable, a set Method and a get
+   - AccountTest Class That Creates and Uses an Object of Class Account
+   - Compiling and Executing an App with Multiple Classes
+   - Account UML Class Diagram with an Instance Variable and set and get Methods
+- Primitive Types vs. Reference Types
+- Account Class: Initializing Objects with Constructors
+    - Declaring an Account Constructor for Custom Object Initialization
+- GUI and Graphics Case Study: Using Dialog Boxes
 
 ### Chapter-4 Control Statements
 
