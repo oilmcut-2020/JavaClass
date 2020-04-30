@@ -11,7 +11,7 @@ In this section, you’ll create two classes— Account (Fig. 3.1) and AccountTe
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.1.png">
 </p>
 
-## 3.2.1 Account Class with an Instance Variable, a set Method and a get
+## 3.2 Account Class with an Instance Variable, a set Method and a get
 Method Different accounts typically have different names. For this reason, class Account (Fig. 3.1) contains a name instance variable. A class’s instance variables maintain data for each object (that is, each instance) of the class.
 
 
@@ -46,7 +46,7 @@ Method setName receives parameter name of type String —which represents the na
 Variables declared in a particular method’s body (such as main ) are local variables which can be used only in that method. Each method can access only its own local variables, not those of other methods. When a method terminates, the values of its local variables are lost. A method’s parameters also are local variables of the method.
 
 
-## 3.2.2 AccountTest Class That Creates and Uses an Object of Class Account
+## 3.2.1 AccountTest Class That Creates and Uses an Object of Class Account
 Class Account cannot execute by itself because it does not contain a main method—if you type java Account in the command window, you’ll get an error indicating “ Main method not found in class Account .” To fix this problem, you must either declare a separate class that contains a main method
 or place a main method in class Account .
 
@@ -83,7 +83,7 @@ where getName was called (line 16 in Fig. 3.2).
 3. System.out.printf displays the String returned by method getName , then the program continues executing at line 19 in main .
 
 
-## 3.2.3 Compiling and Executing an App with Multiple Classes
+## 3.2.2 Compiling and Executing an App with Multiple Classes
 
 You must compile the classes in Figs. 3.1 and 3.2 before you can execute the app. This is the first time you’ve created an app with multiple classes. Class AccountTest has a main method; class Account does not. To compile this app, first change to the directory that contains the app’s source-code files. Next, type the command
 
@@ -99,7 +99,7 @@ The asterisk ( * ) in *.java indicates that all files in the current directory e
 		java AccountTest
 
 
-## 3.2.4 Account UML Class Diagram with an Instance Variable and set and get Methods
+## 3.2.3 Account UML Class Diagram with an Instance Variable and set and get Methods
 
 
 We’ll often use UML class diagrams to summarize a class’s attributes and operations. In industry, UML diagrams help systems designers specify a system in a concise, graphical, programming-language-independent manner, before programmers implement the system in a specific programming language. Figure 3.3 presents a UML class diagram for class Account of Fig. 3.1.
@@ -178,7 +178,7 @@ The programs presented thus far display output in the command window. Many apps 
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.5.png">
 </p>
 
-**Fig. 3.5 Account class with a constructor that initializes the name . **
+**Fig.3.5 Account class with a constructor that initializes the name**
 
 **JOptionPane Class static Method showMessagDialog**
 Line 3 indicates that the program uses class JOptionPane from package javax.swing . This package contains many classes that help you create graphical user interfaces (GUIs). GUI components facilitate data entry by a program’s user and presentation of outputs to the user. Line 10 calls JOptionPane method showMessageDialog to display a dialog box containing a message. The method requires two arguments. The first helps the Java app de- termine where to position the dialog box. A dialog is typically displayed from a GUI app with its own window. The first argument refers to that window (known as the parent win-
