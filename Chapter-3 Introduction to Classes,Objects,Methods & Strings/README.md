@@ -126,10 +126,7 @@ The UML indicates the return type of an operation by placing a colon and the ret
 The UML models a parameter a bit differently from Java by listing the parameter name, followed by a colon and the parameter type in the parentheses after the operation name. The UML has its own data types similar to those of Java, but for simplicity, we’ll use the
 Java data types.
 
-
-
 # 3.3 Primitive Types vs. Reference Types
-
 
 Java’s types are divided into primitive types and reference types. The other primitive types are boolean , byte , char , short , long , float and double.
 All nonprimitive types are reference types, so classes, which specify the types of objects, are reference types.
@@ -162,7 +159,8 @@ In this case, the String argument "Jane Green" is passed to the Account object�
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.4.png">
 </p>
-**Fig. 3.4 Account class with a constructor that initializes the name . **
+
+**Fig. 3.4 Account class with a constructor that initializes the name**
 
 **Account Constructor Declaration**
 
@@ -179,6 +177,7 @@ The programs presented thus far display output in the command window. Many apps 
 <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.5.png">
 </p>
+
 **Fig. 3.5 Account class with a constructor that initializes the name . **
 
 **JOptionPane Class static Method showMessagDialog**
@@ -198,5 +197,5 @@ It uses another predefined JOptionPane dialog called an input dialog that allows
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.6.png">
 </p>
 
-**Fig. 3.6 Obtaining user input from a dialog. **
+**Fig.3.6 Obtaining user input from a dialog. **
 
