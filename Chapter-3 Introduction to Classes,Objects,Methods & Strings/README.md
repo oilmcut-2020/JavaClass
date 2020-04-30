@@ -8,13 +8,11 @@ Classes and Objects in Java. Classes and Objects are basic concepts of Object Or
 In this section, you’ll create two classes— Account (Fig. 3.1) and AccountTest (Fig. 3.2)Class AccountTest is an application class in which the main method will create and use an Account object to demonstrate class Account ’s capabilities.
 
 <p align="center">
-  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-2%20Java%20Applications/arithmetic.png">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.1.png">
 </p>
 
 ## 3.2.1 Account Class with an Instance Variable, a set Method and a get
 Method Different accounts typically have different names. For this reason, class Account (Fig. 3.1) contains a name instance variable. A class’s instance variables maintain data for each object (that is, each instance) of the class.
-
-
 
 
 **Class Declaration**
@@ -58,7 +56,7 @@ or place a main method in class Account .
 Once main begins executing, it may call other methods in this and other classes; those may, in turn, call other methods, and so on. Class AccountTest ’s main method creates one Account object and calls its getName and setName methods. Such a class is some times called a driver class—just as a Person object drives a Car object by telling it what to do (go faster, go slower, turn left, turn right, etc.), class AccountTest drives an Account object, telling it what to do by calling its methods.
 
 <p align="center">
-  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-2%20Java%20Applications/arithmetic.png">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.2.png">
 </p>
 
 
@@ -111,7 +109,7 @@ We’ll often use UML class diagrams to summarize a class’s attributes and ope
 In the UML, each class is modeled in a class diagram as a rectangle with three compartments. In this diagram the top compartment contains the class name Account centered horizontally in boldface type.
 
 <p align="center">
-  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-2%20Java%20Applications/arithmetic.png">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.3.png">
 </p>
 
 **Middle Compartment**
@@ -151,17 +149,54 @@ creates an object of class Scanner , then assigns to the variable Scanner object
 
 # 3.4 Account Class: Initializing Objects with Constructors
 		
+Each class you declare can optionally provide a constructor with parameters that can be used to initialize an object of a class when the object is created. Java requires a constructor call for every object that’s created, so this is the ideal point to initialize an object’s instance variables.
 
+## 3.4.1 Declaring an Account Constructor for Custom Object Initialization
 
+When you declare a class, you can provide your own constructor to specify custom initialization for objects of your class.
 
+		Account account1 = new Account("Jane Green");
+		
+In this case, the String argument "Jane Green" is passed to the Account object’s construc- tor and used to initialize the name instance variable. The preceding statement requires that the class provide a constructor that takes only a String parameter.
 
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.4.png">
+</p>
+**Fig. 3.4 Account class with a constructor that initializes the name . **
 
+**Account Constructor Declaration**
 
+Lines 9–12 of Fig. 3.4 declare Account ’s constructor. A constructor must have the same name as the class. A constructor’s parameter list specifies that the constructor requires one or more pieces of data to perform its task. Line 9 indicates that the constructor has a String parameter called name .
 
+# 3.5 (Optional) GUI and Graphics Case Study: Using Dialog Boxes
+ 
+This optional case study is designed for those who want to begin learning Java’s powerful capabilities for creating graphical user interfaces (GUIs) and graphics early in the book, before the deeper discussions of these topics later in the book. This case study features Java’s mature Swing technology, which as of this writing is still a bit more popular than the newer JavaFX technology presented in later chapters.
 
+**Displaying Text in a Dialog Box**
 
+The programs presented thus far display output in the command window. Many apps use windows or dialog boxes (also called dialogs) to display output. Web browsers such as Chrome, Firefox, Internet Explorer, Safari and Opera display web pages in their own win- dows. E-mail programs allow you to type and read messages in a window. Typically, dialog boxes are windows in which programs display important messages to users. Class JOption- Pane provides prebuilt dialog boxes that enable programs to display windows containing messages—such windows are called message dialogs.
 
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.5.png">
+</p>
+**Fig. 3.5 Account class with a constructor that initializes the name . **
 
+**JOptionPane Class static Method showMessagDialog**
+Line 3 indicates that the program uses class JOptionPane from package javax.swing . This package contains many classes that help you create graphical user interfaces (GUIs). GUI components facilitate data entry by a program’s user and presentation of outputs to the user. Line 10 calls JOptionPane method showMessageDialog to display a dialog box containing a message. The method requires two arguments. The first helps the Java app de- termine where to position the dialog box. A dialog is typically displayed from a GUI app with its own window. The first argument refers to that window (known as the parent win-
+dow) and causes the dialog to appear centered over the app’s window. If the first argument is null , the dialog box is displayed at the center of your screen. The second argument is the String to display in the dialog box.
 
+**Introducing static Methods**
+JOptionPane method showMessageDialog is a so-called static method. Such methods often define frequently used tasks. For example, many programs display dialog boxes, and the code to do this is the same each time. Rather than requiring you to “reinvent the wheel” and create code to display a dialog, the designers of class JOptionPane declared a static method that performs this task for you. A static method is called by using its class name followed by a dot ( . ) and the method name, as:
 
+	ClassName . methodName ( arguments )
+	
+**Enetring Text in a Dialog**
+
+It uses another predefined JOptionPane dialog called an input dialog that allows the user to enter data into a program. The program asks for the user’s name and responds with a message dialog containing a greeting and the name that the user entered
+
+<p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/master/Chapter-3%20Introduction%20to%20Classes%2CObjects%2CMethods%20%26%20Strings/FIG-3.6.png">
+</p>
+
+**Fig. 3.6 Obtaining user input from a dialog. **
 
