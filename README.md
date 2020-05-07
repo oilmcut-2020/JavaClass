@@ -2,8 +2,8 @@
 **Managed by- Shivani (M07158025)**
 
 * [How to run Java Program in your "dormitory" after Class ?](#How-to-run-Java-Program-in-your-"dormitory"-after-Class-?)
-* [STEP1: HOW TO INSTALL DOCKER ?](#STEP1:-HOW-TO-INSTALL-DOCKER-?)
-* [Steps2: Follow below Steps to install Docker:](#Steps2:-Follow-below-Steps-to-install-Docker:)
+* [STEP1: HOW TO INSTALL DOCKER ?](#STEP-1-:-HOW-TO-INSTALL-DOCKER-?)
+* [Steps2: Follow below Steps to install Docker:](#Steps-2-:-Follow-below-Steps-to-install-Docker:)
 * [How to run Java Program in your "dormitory" after Class ?](#How-to-run-Java-Program-in-your-"dormitory"-after-Class-?)
 * [HOW-TO-INSTALL-DOCKER ?](#HOW-TO-INSTALL-DOCKER-?)
 
