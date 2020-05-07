@@ -26,7 +26,7 @@
 
 ## STEP2: RULES TO INSTALL DOCKER: 
 
-1)Open file install_docker.sh 
+1)Open file install_docker.sh (https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/install_docker.sh)
 
 **OR**
 
