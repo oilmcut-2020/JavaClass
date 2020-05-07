@@ -1,8 +1,17 @@
+
+**Managed by- Shivani (M07158025)**
+
+* [How to run Java Program in your "dormitory" after Class ?](#How-to-run-Java-Program-in-your-"dormitory"-after-Class-?)
+* [STEP1: HOW TO INSTALL DOCKER ?](#STEP1:-HOW-TO-INSTALL-DOCKER-?)
+* [Steps2: Follow below Steps to install Docker:](#Steps2:-Follow-below-Steps-to-install-Docker:)
+* [How to run Java Program in your "dormitory" after Class ?](#How-to-run-Java-Program-in-your-"dormitory"-after-Class-?)
+* [HOW-TO-INSTALL-DOCKER ?](#HOW-TO-INSTALL-DOCKER-?)
+
 # How to run Java Program in your "dormitory" after Class ?
 
-## HOW TO INSTALL DOCKER ?
-**Managed by- Shivani (M07158025)**
-## Manage Docker as non-root user
+## STEP1: HOW TO INSTALL DOCKER ?
+
+### Manage Docker as non-root user
 
 ### To create the docker group and add your user:
 1) Create the docker group.
@@ -21,7 +30,7 @@
 
         docker run hello-world
 
-# Follow below Steps to install Docker: 
+## Steps2: Follow below Steps to install Docker: 
 
 1)Open file install_docker.sh 
 
