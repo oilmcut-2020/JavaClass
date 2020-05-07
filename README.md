@@ -3,7 +3,7 @@
 
 * [How to run Java Program in your "dormitory" after Class ?](#How-to-run-Java-Program-in-your-"dormitory"-after-Class-?)
 
-* [HOW TO INSTALL ECLIPSE IN YOUR COMPUTER ?](#HOW-TO-INSTALL-ECLIPSE-IN-YOUR-COMPUTER-?)
+* [HOW TO INSTALL ECLIPSE IN YOUR COMPUTER ?] (#HOW-TO-INSTALL-ECLIPSE-IN-YOUR-COMPUTER-?)
 
 # How to run Java Program in your "dormitory" after Class ?
 
