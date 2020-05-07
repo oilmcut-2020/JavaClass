@@ -2,8 +2,6 @@
 **Managed by- Shivani (M07158025)**
 
 * [How to run Java Program in your "dormitory" after Class ?](#How-to-run-Java-Program-in-your-"dormitory"-after-Class-?)
-* [STEP1: HOW TO INSTALL DOCKER ?](#STEP1:-HOW-TO-INSTALL-DOCKER-?)
-* [STEP2: Follow below Steps to install Docker:](#STEP2:-Follow-below-Steps-to-install-Docker:)
 * [How to run Java Program in your "dormitory" after Class ?](#How-to-run-Java-Program-in-your-"dormitory"-after-Class-?)
 * [HOW-TO-INSTALL-DOCKER ?](#HOW-TO-INSTALL-DOCKER-?)
 
@@ -30,7 +28,7 @@
 
         docker run hello-world
 
-## STEP2: Follow below Steps to install Docker: 
+## STEP2: RULES TO INSTALL DOCKER: 
 
 1)Open file install_docker.sh 
 
