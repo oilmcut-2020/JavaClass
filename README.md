@@ -128,3 +128,10 @@ Please refer below screenshot :
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/e4.png">
 </p>
 
+4) New Version "Java Example Programs"
+
+       docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix shivanibaldwa/eclipse:4.0
+       
+ <p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/ew1.png">
+</p>      
