@@ -131,7 +131,37 @@ Please refer below screenshot :
 4) New Version "Java Example Programs"
 
        docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix shivanibaldwa/eclipse:4.0
-       
+     
+     
+ <p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/openeclipse.png">
+</p>    
+     
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/file.png">
+</p>
+
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/import.png">
+</p>
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/home.png">
+</p>
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/ch.png">
+</p>
+
+</p>
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/finish.png">
+</p>
+
+</p>
+  <p align="center">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/ch2.png">
+</p>
+
+**In the same way add all chapters to view this way:**
  <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/ew1.png">
 </p>      
