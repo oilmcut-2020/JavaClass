@@ -145,7 +145,7 @@ Please refer below screenshot :
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/import.png">
 </p>
   <p align="center">
-  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/home.png">
+  <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/java.png">
 </p>
   <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/ch.png">
