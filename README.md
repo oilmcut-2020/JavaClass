@@ -130,7 +130,7 @@ Please refer below screenshot :
 
 4) New Version "Java Example Programs"
 
-       docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix shivanibaldwa/eclipse:4.0
+       docker run -it -e DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix shivanibaldwa/eclipse:5.2
      
      
  <p align="center">
@@ -143,6 +143,9 @@ Please refer below screenshot :
 
   <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/import.png">
+
+**Select ---> Java-SamplePrograms**
+
 </p>
   <p align="center">
   <img src="https://github.com/oilmcut-2020/JavaClass/blob/docker-eclipse/images/java.png">
